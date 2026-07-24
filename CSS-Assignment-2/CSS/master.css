@@ -1,0 +1,159 @@
+.assign-1-shape-1 {
+    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
+    background-color: hsl(hsl(282, 83%, 53%));
+    background-color: #8A2BE2;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assign-1-shape-2 {
+    background-color: rgba(138, 43, 226, .5);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assign-1-shape-3 {
+    background-color: rgba(138, 43, 226, .1);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assign-2-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+}
+
+.assign-2-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    padding: 10px;
+    color: white;
+}
+
+.assign-2-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    padding: 10px;
+    color: white;
+}
+
+.assign-2-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat;
+    padding: 10px;
+    color: white;
+}
+
+.assign-3-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+}
+
+.assign-3-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+    padding: 10px;
+    color: white;
+}
+
+.assign-3-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding: 10px;
+    color: white;
+}
+
+.assign-3-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-repeat: repeat;
+    padding: 10px;
+    color: white;
+}
+
+.assign-4-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 10px;
+    color: white;
+}
+
+.assign-4-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: repeat-y;
+    background-position: top right;
+    padding: 10px;
+    color: white;
+}
+
+.assign-4-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    padding: 10px;
+    color: white;
+}
+
+.assign-4-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    background-image: url(/Ass2/imgs/css-assignment-5-8.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 10px;
+    color: white;
+}

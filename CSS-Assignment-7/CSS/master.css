@@ -1,0 +1,74 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 800px;
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+.parent .child-full .full {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: calc(100% - 30px);
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 75%;
+}
+
+.parent .child-thrid .thrid {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: calc((100% - 60px)/3);
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 75%;
+}
+
+.parent .child-half .half {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: calc((100% - 45px)/2);
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 75%;
+}
+
+.parent .child-quart .quart {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: calc((100% - 75px)/4);
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 75%;
+}
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+}
+
+.one{
+    background-color: rgba(179 179 179 / .1);
+}
+
+.two{
+    opacity: .1;
+}

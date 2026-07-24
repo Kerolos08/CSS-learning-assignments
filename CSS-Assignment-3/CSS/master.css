@@ -1,0 +1,63 @@
+.shape-1 {
+    display: inline-block;
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+    border: 5px red solid;
+    outline: 5px black solid;
+    font-size: x-small;
+}
+
+.shape-2 {
+    display: inline-block;
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px green solid;
+    border-right: 5px green solid;
+    border-top: 5px blue solid;
+    border-bottom: 5px blue solid;
+    outline: 5px black solid;
+    font-size: x-small;
+}
+
+.shape-3 {
+    display: inline-block;
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px yellow dashed;
+    border-right: 5px green dashed;
+    border-top: 5px red dashed;
+    border-bottom: 5px blue dashed;
+    outline: 5px black solid;
+    font-size: x-small;
+}
+
+.element-1 {
+    width: 400px;
+    background-color: beige;
+    margin: 20px;
+    border-left: 5px rgb(211, 92, 92) solid;
+    outline: 10px beige solid;
+    padding: 10px;
+}
+
+.element-2 {
+    width: 400px;
+    background-color: beige;
+    margin: 20px;
+    border-left: 5px rgb(211, 92, 92) solid;
+    outline: 10px beige solid;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.element-3 {
+    width: 400px;
+    background-color: beige;
+    margin: 20px;
+    border-left: 5px rgb(100, 189, 97) solid;
+    outline: 10px beige solid;
+    padding: 10px;
+}

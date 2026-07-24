@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 300px;
+    height: 60px;
+    margin: 20px auto;
+    line-height: 60px;
+    background-color: #eee;
+    text-align: center;
+}
+
+div:empty {
+    background-color: red;
+}
+
+.ass2 {
+    width: 400px;
+    position: relative;
+}
+
+.ass2::first-letter {
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin-left: -110px;
+    margin-right: 10px;
+}
+
+.ass3 {
+    position: relative;
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    border-left: 5px #e91e63 solid;
+    margin-left: 110px;
+}
+
+.ass3::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-color: transparent #e91e63 transparent transparent;
+    border-style: solid;
+    left: -25px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.ass3::before {
+    height: 20px;
+    position: absolute;
+    content: attr(data-person);
+    background-color: #eee;
+    left: -100px;
+    padding: 10px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.parent p {
+    width: 400px;
+    position: relative;
+    background-color: #eee;
+    border-right: 5px #f44336 solid;
+    counter-increment: counter;
+}
+
+.parent p::before {
+    position: absolute;
+    content: counter(counter);
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    width: 60px;
+    left: 0px;
+}
